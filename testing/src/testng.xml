@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="linkedin app test automation suite">
+<test name="linkedin app test">
+
+<parameter name="emailOrMobile" value="azharkadrigj@gmail.com"/> 
+<parameter name="password" value="NAWADA@1992"/>
+
+<classes>
+<class name="testng.DemoParametersWithLinkedin" />
+</classes>
+
+</test>
+</suite>
